@@ -1,0 +1,15 @@
+<!--导航条-->
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+</view>
+ 
+<!--好友-->
+<view style="color: #00CCCC" hidden="{{currentTab!==0}}">
+  <image style="position: fixed; width: 600rpx; height: 600rpx; top: 80rpx; left: 75rpx" src="/image/friend_rank.png" />
+</view>
+ 
+<!--地区用户-->
+<view style="color: #00CCCC" hidden="{{currentTab!==1}}">
+  <image style="position: fixed; width: 600rpx; height: 600rpx; top: 120rpx; left: 75rpx" src="/image/area_rank.png" />
+</view>
+<image style="position: fixed; bottom: 30rpx; width: 300rpx; height: 300rpx; justify-content: flex-end; align-items: flex-end; right: 30rpx" src="/image/rank.png" />

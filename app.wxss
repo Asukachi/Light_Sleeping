@@ -1,0 +1,5 @@
+@import 'assets/style/weui.wxss';
+@import 'assets/style/weui-extend.wxss';
+@import 'assets/style/weui-theme.wxss';
+@import 'assets/style/iconfont/iconfont.wxss';
+@import 'assets/style/animate.wxss';

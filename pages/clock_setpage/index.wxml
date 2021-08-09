@@ -1,0 +1,35 @@
+<import src="../../wxParse/wxParse.wxml" />
+
+<view class="section" style="color: #00CCCC">
+  <picker mode="time" value="{{time}}" start="00:01" end="24:00" bindchange="bindTimeChange">
+    <view class="picker fontstyle2" style="display: flex; align-items: center; justify-content: center">
+      {{time}}
+    </view>
+  </picker>
+</view>
+
+<button class="type" plain style="color: #00CCCC; border-color: #00CCCC; border-width: 6rpx; border-radius: 8px">
+<view class="display">重复</view>
+</button>
+
+<picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+<button class="type" plain style="color: #00CCCC; border-color: #00CCCC; border-width: 6rpx; border-radius: 8px">
+<view class="display">再响间隔：{{array[index]}}</view>
+</button>
+</picker>
+
+<picker bindchange="bindPickerChange_" value="{{index_}}" range="{{mode}}">
+<button class="type" plain style="color: #00CCCC; border-color: #00CCCC; border-width: 6rpx; border-radius: 8px">
+<view class="display">闹钟模式：{{mode[index_]}}</view>
+</button>
+</picker>
+
+<button class="type_" plain style="color: #00CCCC; border-color: #00CCCC; border-width: 6rpx; border-radius: 20px">
+<view>完成设定</view>
+</button>
+
+<image style="position: fixed; bottom: 30rpx; width: 300rpx; height: 300rpx; justify-content: flex-end; align-items: flex-end; right: 30rpx" src="/image/clock.png" />
+
+<modal title="确认删除闹钟？" cancel-text="关闭" confirm-text="确定"
+       hidden="{{mHidden}}" bindconfirm="changeModel" bindtouchcancel="modelCancel">
+</modal>

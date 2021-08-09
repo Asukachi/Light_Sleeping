@@ -1,0 +1,26 @@
+<import src="../../wxParse/wxParse.wxml" /> 
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="">
+<view class="weui-cell__bd fontstyle">自定义音乐01</view> 
+<view class="arrow"></view>
+</view>
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="">
+<view class="weui-cell__bd fontstyle">自定义音乐02</view> 
+<view class="arrow"></view>
+</view>
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="">
+<view class="weui-cell__bd fontstyle">自定义音乐03</view> 
+<view class="arrow"></view>
+</view>
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="">
+<view class="weui-cell__bd fontstyle">自定义音乐04</view> 
+<view class="arrow"></view>
+</view>
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="">
+<view class="weui-cell__bd fontstyle">+ 添加音乐</view> 
+<view class="arrow"></view>
+</view>
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="">
+<view class="weui-cell__bd fontstyle">删除音乐</view> 
+<view class="arrow"></view>
+</view>
+<image style="position: fixed; bottom: 50rpx; width: 300rpx; height: 300rpx; justify-content: flex-end; align-items: flex-end; right: 50rpx" src="/image/music.png" />

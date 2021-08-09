@@ -1,0 +1,41 @@
+<import src="../../wxParse/wxParse.wxml" />
+
+<view class="updown-image" bindtap='upload'>
+    <view class="personal-img">
+      <image src="{{head}}" mode="aspecFill"></image>
+    </view>
+</view>
+
+<text style="white-space:pre-wrap;color:#000033">
+测试的占位代码
+
+</text>
+
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="user_data">
+<view class="weui-cell__bd fontstyle">用户信息</view> 
+<view class="arrow"></view>
+</view>
+
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="user_setting">
+<view class="weui-cell__bd fontstyle">设置</view> 
+<view class="arrow"></view>
+</view>
+
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="user_about_us">
+<view class="weui-cell__bd fontstyle">关于我们</view> 
+<view class="arrow"></view>
+
+</view><view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="">
+<view class="weui-cell__bd fontstyle">注销用户</view> 
+<view class="arrow"></view>
+</view>
+
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="back" data-url="denglu">
+<view class="weui-cell__bd fontstyle">退出</view> 
+<view class="arrow"></view>
+</view>
+
+<view class="weui-cell" style="color: #00CCCC" type="" bindtap="" data-url="">
+<text style="white-space:pre-wrap;color:#000033">测试的占位代码
+</text>
+</view>

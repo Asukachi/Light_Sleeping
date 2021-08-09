@@ -1,0 +1,23 @@
+<import src="../../wxParse/wxParse.wxml" /> 
+<button class="type" plain style="color: #00CCCC; border-color: #00CCCC; border-width: 6rpx; border-radius: 8px">
+<view class="display">邮箱：abc4321@5678.com</view>
+</button>
+<button class="type" plain style="color: #00CCCC; border-color: #00CCCC; border-width: 6rpx; border-radius: 8px">
+<view class="display">性别：男</view>
+</button>
+<button class="type" plain style="color: #00CCCC; border-color: #00CCCC; border-width: 6rpx; border-radius: 8px">
+<view class="display">年龄：10</view>
+</button>
+
+<button class="type" bindtap="modalinput" plain style="color: #00CCCC; border-color: #00CCCC; border-width: 6rpx; border-radius: 8px">
+<view class="display">昵称：家庭用户XX</view>
+</button>
+
+<modal hidden="{{hiddenmodalput}}" title="请输入昵称" 
+   			confirm-text="确认" cancel-text="取消" bindcancel="modalinput" 
+   			bindconfirm="confirm">
+     <!-- 这里可以自由选择你的输入框类型<input type='text' placeholder="请输入内容" auto-focus/> -->
+     <input type='text' placeholder="请输入内容" auto-focus/>
+</modal>
+
+<image style="position: fixed; bottom: 30rpx; width: 300rpx; height: 300rpx; justify-content: flex-end; align-items: flex-end; right: 30rpx" src="/image/home.png" />

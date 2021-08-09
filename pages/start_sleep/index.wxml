@@ -1,0 +1,17 @@
+<view class="container display">
+
+<button class="type" bindtap="back" plain style="color: #00CCCC; border-color: #00CCCC; border-width: 6rpx; border-radius: 8px">
+<view>结束睡眠</view>
+</button>
+
+<button class="type" plain style="color: #00CCCC; border-color: #00CCCC; border-width: 6rpx; border-radius: 8px">
+<view>播放音乐</view>
+</button>
+
+<button class="type" plain style="color: #00CCCC; border-color: #00CCCC; border-width: 6rpx; border-radius: 8px">
+<view>暂停音乐</view>
+</button>
+
+</view>
+
+<image style="position: fixed; bottom: 30rpx; width: 300rpx; height: 300rpx; justify-content: flex-end; align-items: flex-end; right: 30rpx" src="/image/start_sleep.png" />

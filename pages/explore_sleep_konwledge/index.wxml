@@ -1,0 +1,33 @@
+<import src="../../wxParse/wxParse.wxml" /> 
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="explore_improve_sleep_quality">
+<view class="weui-cell__bd fontstyle">提升睡眠质量的方法</view> 
+<view class="arrow"></view>
+</view>
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="Analysis_of_sleep_process">
+<view class="weui-cell__bd fontstyle">解析睡眠过程</view> 
+<view class="arrow"></view>
+</view>
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="Bad_sleep_habits">
+<view class="weui-cell__bd fontstyle">什么睡眠习惯很伤身</view> 
+<view class="arrow"></view>
+</view>
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="What_is_sleep_disorder">
+<view class="weui-cell__bd fontstyle">睡眠障碍是什么？</view> 
+<view class="arrow"></view>
+</view>
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="World_sleep_day">
+<view class="weui-cell__bd fontstyle">世界睡眠日</view> 
+<view class="arrow"></view>
+</view>
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="Why_snore">
+<view class="weui-cell__bd fontstyle">为什么会打鼾？</view> 
+<view class="arrow"></view>
+</view>
+
+<view class="weui-cell" style="color: #00CCCC" type="" bindtap="" data-url="">
+<text style="white-space:pre-wrap;color:#000033">
+测试的占位代码
+</text>
+</view>
+
+<image style="position: fixed; bottom: 30rpx; width: 300rpx; height: 300rpx; justify-content: flex-end; align-items: flex-end; right: 30rpx" src="/image/sleep.png" />

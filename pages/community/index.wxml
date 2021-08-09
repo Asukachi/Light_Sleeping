@@ -1,0 +1,20 @@
+<import src="../../wxParse/wxParse.wxml" /> 
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="rank">
+<view class="weui-cell__bd fontstyle">睡眠数据评比</view> 
+<view class="arrow"></view>
+</view>
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="Bind_home_users">
+<view class="weui-cell__bd fontstyle">绑定家庭用户</view> 
+<view class="arrow"></view>
+</view>
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="forum_luntan">
+<view class="weui-cell__bd fontstyle">论坛</view> 
+<view class="arrow"></view>
+</view>
+
+<view class="weui-cell" style="color: #00CCCC" type="" bindtap="" data-url="">
+<text style="white-space:pre-wrap;color:#000033">测试的占位代码
+</text>
+</view>
+
+<image style="position: fixed; bottom: 30rpx; width: 300rpx; height: 300rpx; justify-content: flex-end; align-items: flex-end; right: 30rpx" src="/image/community_.png" />

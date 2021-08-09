@@ -1,0 +1,128 @@
+<import src="../../wxParse/wxParse.wxml" />
+<view class="fontbreak" style="color: #00CCCC">
+<text style="white-space:pre-wrap">
+    “世界睡眠日”的目的是要引起人们对睡眠重要性和睡眠质量的关注，提醒人们要关注睡眠健康及质量。关注睡眠质量就是关注生活质量，关注睡眠就是关注健康。失眠已经成为一个影响现代人健康的重要问题，它不仅影响人的情绪，甚至能影响人的免疫系统，更重要的是，失眠往往是身体潜在某种疾病的外在表现形式之一。
+
+    世界睡眠日有多个版本，其一是3月21日，它是由国际精神卫生和神经科学基金会在2001年发起，并在2003年由中国睡眠研究会正式引入中国。
+
+    另一个版本是由世界睡眠医学学会于2008年发起的一项健康计划，并提议将世界睡眠日定在每年三月的第3个星期五。
+
+    根据维基百科，世界睡眠日是三月第二个完整周的周五（Friday of the second full week of March）。
+
+    以下是中国举办世界睡眠日的历届主题：
+
+</text>
+ <view class="flex">
+  <view style="border: 1px solid" class="inside">
+    <text style="white-space:pre-wrap">      年份       </text>
+  </view>
+  <view style="border:1px solid" class="inside">
+    <text style="white-space:pre-wrap">                       主题                       </text>
+  </view>
+ </view>
+ <view class="flex">
+  <view style="border: 1px solid" class="inside">
+    <text style="white-space:pre-wrap">      2009      </text>
+  </view>
+  <view style="border:1px solid" class="inside">
+    <text style="white-space:pre-wrap">            让孩子多睡一小时            </text>
+  </view>
+ </view>
+ <view class="flex">
+  <view style="border: 1px solid" class="inside">
+    <text style="white-space:pre-wrap">      2010      </text>
+  </view>
+  <view style="border:1px solid" class="inside">
+    <text style="white-space:pre-wrap">      关爱儿童睡眠 多睡一小时      </text>
+  </view>
+ </view>
+ <view class="flex">
+  <view style="border: 1px solid" class="inside">
+    <text style="white-space:pre-wrap">       2011      </text>
+  </view>
+  <view style="border:1px solid" class="inside">
+    <text style="white-space:pre-wrap">      关注老人睡眠 多睡一小时      </text>
+  </view>
+ </view>
+ <view class="flex">
+  <view style="border: 1px solid" class="inside">
+    <text style="white-space:pre-wrap">      2012      </text>
+  </view>
+  <view style="border:1px solid" class="inside">
+    <text style="white-space:pre-wrap">      关注睡眠品质 多睡一小时      </text>
+  </view>
+ </view>
+ <view class="flex">
+  <view style="border: 1px solid" class="inside">
+    <text style="white-space:pre-wrap">      2013      </text>
+  </view>
+  <view style="border:1px solid" class="inside">
+    <text style="white-space:pre-wrap">       自然深睡眠 多睡一小时         </text>
+  </view>
+ </view>
+ <view class="flex">
+  <view style="border: 1px solid" class="inside">
+    <text style="white-space:pre-wrap">      2014      </text>
+  </view>
+  <view style="border:1px solid" class="inside">
+    <text style="white-space:pre-wrap">          健康睡眠，平安出行          </text>
+  </view>
+ </view>
+ <view class="flex">
+  <view style="border: 1px solid" class="inside">
+    <text style="white-space:pre-wrap">      2015      </text>
+  </view>
+  <view style="border:1px solid" class="inside">
+    <text style="white-space:pre-wrap">          健康睡眠，多睡一天          </text>
+  </view>
+ </view>
+ <view class="flex">
+  <view style="border: 1px solid" class="inside">
+    <text style="white-space:pre-wrap">      2016      </text>
+  </view>
+  <view style="border:1px solid" class="inside">
+    <text style="white-space:pre-wrap">          美好睡眠，放飞梦想          </text>
+  </view>
+ </view>
+ <view class="flex">
+  <view style="border: 1px solid" class="inside">
+    <text style="white-space:pre-wrap">      2017      </text>
+  </view>
+  <view style="border:1px solid" class="inside">
+    <text style="white-space:pre-wrap">          健康睡眠，远离慢病          </text>
+  </view>
+ </view>
+ <view class="flex">
+  <view style="border: 1px solid" class="inside">
+    <text style="white-space:pre-wrap">      2018      </text>
+  </view>
+  <view style="border:1px solid" class="inside">
+    <text style="white-space:pre-wrap">          规律作息，健康睡眠          </text>
+  </view>
+ </view>
+ <view class="flex">
+  <view style="border: 1px solid" class="inside">
+    <text style="white-space:pre-wrap">      2019      </text>
+  </view>
+  <view style="border:1px solid" class="inside">
+    <text style="white-space:pre-wrap">          健康睡眠，益智护脑          </text>
+  </view>
+ </view>
+ <view class="flex">
+  <view style="border: 1px solid" class="inside">
+    <text style="white-space:pre-wrap">      2020      </text>
+  </view>
+  <view style="border:1px solid" class="inside">
+    <text style="white-space:pre-wrap">            5G睡眠 梦回故乡             </text>
+  </view>
+ </view>
+ <view class="flex">
+  <view style="border: 1px solid" class="inside">
+    <text style="white-space:pre-wrap">      2021      </text>
+  </view>
+  <view style="border:1px solid" class="inside">
+    <text style="white-space:pre-wrap">          健康睡眠，平安出行          </text>
+  </view>
+ </view>
+ <text style="white-space:pre-wrap">\n\n</text>
+</view>

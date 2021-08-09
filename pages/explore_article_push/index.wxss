@@ -1,0 +1,13 @@
+page{background-color: #000033;}
+.fontbreak{
+  word-break: break-all;
+}
+.size{
+  font-weight: bold;
+  font-size: 18px;
+}
+.flex{
+  display: flex;
+  justify-content: center;  /*水平*/
+  align-items: center; /*垂直*/
+}

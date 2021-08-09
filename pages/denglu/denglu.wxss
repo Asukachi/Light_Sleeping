@@ -1,0 +1,36 @@
+/* pages/denglu/denglu.wxss */
+page{background-color: #000033;}
+.type{
+  width: 40%;
+  margin-top: 60rpx;
+  background-color: #000033;
+}
+.border{
+  border: 3rpx solid #00CCCC;
+  border-radius: 20rpx;
+  display: flex;
+}
+.input-wrap {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.info-input {
+  display:flex;
+  flex:1;
+  background:rgb(247, 247, 247);
+  border-radius:10px;
+  font-size: 18px;
+  padding:8rpx;
+}
+
+.display{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}

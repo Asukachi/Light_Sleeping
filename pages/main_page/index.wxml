@@ -1,0 +1,30 @@
+<import src="../../wxParse/wxParse.wxml" />
+<view style="color: #00CCCC">{{time}}</view>
+
+<view class="input-wrap" style="color: #00CCCC" type="" bindtap="" data-url="">
+<text style="white-space:pre-wrap;color:#000033">
+测试的占位代码
+</text>
+</view>
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="clock_page">
+<view class="weui-cell__bd fontstyle">闹钟</view> 
+<view class="arrow"></view>
+</view>
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="sleep_music">
+<view class="weui-cell__bd fontstyle">睡眠音乐</view> 
+<view class="arrow"></view>
+</view>
+<view class="weui-cell" style="color: #00CCCC">
+<view class="weui-cell__bd fontstyle">勿扰模式</view>
+<switch checked type="swicth" color="#00CCCC" style="zoom:1" class="wx-switch-input wx-switch-input::before wx-switch-input::after"></switch>
+</view>
+<view style="color: #00CCCC"><text style="color:#00CCCC; white-space:pre-wrap">    开启后，收到新消息时不会响铃或振动</text></view> 
+
+<view class="weui-cell" style="color: #00CCCC" type="" bindtap="" data-url="">
+<text style="white-space:pre-wrap;color:#000033">测试的占位代码
+</text>
+</view>
+
+<button class="type" bindtap="goto_sleep" plain style="color: #00CCCC; border-color: #00CCCC; border-width: 6rpx; border-radius: 8px">
+<view class="display">开始睡眠</view>
+</button>

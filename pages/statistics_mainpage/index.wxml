@@ -1,0 +1,24 @@
+<!--导航条-->
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+</view>
+ 
+<!--日-->
+<view style="color: #00CCCC" hidden="{{currentTab!==0}}">
+  <image style="height: 800rpx; position: fixed; top: 80rpx; width: 700rpx; left:20rpx"   src="/image/statistics_day.png"  />
+</view>
+ 
+<!--周-->
+<view style="color: #00CCCC" hidden="{{currentTab!==1}}">
+  <image style="height: 1000rpx; position: fixed; top: 80rpx; width: 700rpx; left:20rpx"   src="/image/statistics_week.png"  />
+</view>
+ 
+<!--月-->
+<view style="color: #00CCCC" hidden="{{currentTab!==2}}">
+  <image style="height: 1000rpx; position: fixed; top: 80rpx; width: 700rpx; left:20rpx"   src="/image/statistics_month.png"  />
+</view>
+
+<!--年-->
+<view style="color: #00CCCC" hidden="{{currentTab!==3}}">
+  <image style="height: 980rpx; position: fixed; top: 80rpx; width: 700rpx; left:20rpx"   src="/image/statistics_year.png"  />
+</view>

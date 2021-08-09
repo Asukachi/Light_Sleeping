@@ -1,0 +1,10 @@
+<!--pages/user_about_us/index.wxml-->
+
+<view class="fontbreak" style="color: #00CCCC">
+<text style="white-space:pre-wrap">
+        目前国内尤其是年轻群体的睡眠障碍问题愈发突出，睡眠健康管理成为越来越多人群的硬需求。
+        
+        本系统面向的最终用户是具有某种程度的睡眠障碍或是希望通过软件辅助睡眠状态管理的方式改善自身睡眠状况的群体。通过对睡眠状况进行科学的管理，这些睡眠障碍的症状有望得到改善。</text>
+</view>
+
+<image style="position: fixed; bottom: 30rpx; width: 300rpx; height: 300rpx; justify-content: flex-end; align-items: flex-end; right: 30rpx" src="/image/about us.png" />

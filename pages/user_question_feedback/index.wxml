@@ -1,0 +1,9 @@
+<!--pages/user_question_feedback/index.wxml-->
+
+<view class="weui-cells__title" style="color: #00CCCC; font-size: 40rpx">欢迎各位用户提出宝贵意见：</view>
+ <view class="border">
+  <input placeholder-class="input" auto-focus placeholder="输入文字……" style="color: #00CCCC" placeholder-style="color: #00CCCC"/>
+ </view>
+<button class="type" bindtap="thankyou" plain style="color: #00CCCC; border-color: #00CCCC; border-width: 6rpx; border-radius: 20px">
+<view>提交</view>
+</button>

@@ -1,0 +1,47 @@
+<!--pages/zhuce/zhuce.wxml-->
+
+<view class="weui-cell" style="color: #00CCCC" type="" bindtap="" data-url="">
+<text style="white-space:pre-wrap;color:#000033">
+测试的占位代码
+</text>
+</view>
+
+<view class="weui-cell" style="color: #00CCCC; font-size: 40rpx">用户邮箱：
+  <view class="border">
+    <input placeholder-class="input" auto-focus placeholder="" placeholder-style="color: #00CCCC" value="{{username}}" bindinput="inputUsername" class="info-input"/>
+  </view>
+</view>
+
+<view class="weui-cell" style="color: #00CCCC; font-size: 40rpx">用户密码：
+  <view class="border">
+    <input placeholder-class="input" auto-focus placeholder="" placeholder-style="color: #00CCCC" value="{{password}}" bindinput="inputPassword" class="info-input"/>
+  </view>
+</view>
+
+<view class="weui-cell" style="color: #00CCCC; font-size: 40rpx">用户昵称：
+  <view class="border">
+    <input placeholder-class="input" auto-focus placeholder="" placeholder-style="color: #00CCCC" value="{{sname}}" bindinput="inputSname" class="info-input"/>
+  </view>
+</view>
+
+<view class="weui-cell" style="color: #00CCCC; font-size: 40rpx">用户年龄：
+  <view class="border">
+    <input placeholder-class="input" auto-focus placeholder="" placeholder-style="color: #00CCCC" value="{{yearold}}" bindinput="inputYearold" class="info-input"/>
+  </view>
+</view>
+
+<view class="weui-cell" style="color: #00CCCC; font-size: 40rpx">用户性别：
+  <view class="border">
+    <input placeholder-class="input" auto-focus placeholder="" placeholder-style="color: #00CCCC" value="{{gen}}" bindinput="inputGen" class="info-input"/>
+  </view>
+</view>
+
+<view class="weui-cell" style="color: #00CCCC; font-size: 40rpx">睡眠情况：
+  <view class="border">
+    <input placeholder-class="input" auto-focus placeholder="" placeholder-style="color: #00CCCC" value="{{shui}}" bindinput="inputShui" class="info-input"/>
+  </view>
+</view>
+
+<button plain style="color: #00CCCC; border-color: #00CCCC; border-width: 6rpx; border-radius: 20px" bindtap="register" class="login type">
+<view>注册</view>
+</button>

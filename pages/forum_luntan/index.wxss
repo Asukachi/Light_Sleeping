@@ -1,0 +1,5 @@
+page{
+  background-color: #000033;
+  display: flex;
+  justify-content: center;
+}

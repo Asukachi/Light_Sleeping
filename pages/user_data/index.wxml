@@ -1,0 +1,53 @@
+<import src="../../wxParse/wxParse.wxml" /> 
+<button class="type" bindtap="modalinput" plain style="color: #00CCCC; border-color: #00CCCC; border-width: 6rpx; border-radius: 8px">
+<view class="display">昵称：XX某某</view>
+</button>
+<button class="type" bindtap="btnTap" plain style="color: #00CCCC; border-color: #00CCCC; border-width: 6rpx; border-radius: 8px">
+<view class="display">性别：男</view>
+</button>
+<button class="type" bindtap="modalinput_1" plain style="color: #00CCCC; border-color: #00CCCC; border-width: 6rpx; border-radius: 8px">
+<view class="display">年龄：20</view>
+</button>
+<button class="type" bindtap="modalinput_2" plain style="color: #00CCCC; border-color: #00CCCC; border-width: 6rpx; border-radius: 8px">
+<view class="display">邮箱：XXXX1234@5678.com</view>
+</button>
+<button class="type" bindtap="modalinput_3" plain style="color: #00CCCC; border-color: #00CCCC; border-width: 6rpx; border-radius: 8px">
+<view class="display">使用前的睡眠情况：</view>
+</button>
+<button class="type" bindtap="modalinput_4" plain style="color: #00CCCC; border-color: #00CCCC; border-width: 6rpx; border-radius: 8px">
+<view class="display">更改密码</view>
+</button>
+
+<modal hidden="{{hiddenmodalput}}" title="请输入昵称" 
+   			confirm-text="确认" cancel-text="取消" bindcancel="modalinput" 
+   			bindconfirm="confirm">
+     <input type='text' placeholder="请输入内容" auto-focus/>
+</modal>
+
+<modal hidden="{{hiddenmodalput_1}}" title="请输入年龄" 
+   			confirm-text="确认" cancel-text="取消" bindcancel="modalinput_1" 
+   			bindconfirm="confirm">
+     <input type='text' placeholder="请输入内容" auto-focus/>
+</modal>
+
+<modal hidden="{{hiddenmodalput_2}}" title="请输入邮箱" 
+   			confirm-text="确认" cancel-text="取消" bindcancel="modalinput_2" 
+   			bindconfirm="confirm">
+     <input type='text' placeholder="请输入内容" auto-focus/>
+</modal>
+
+<modal hidden="{{hiddenmodalput_3}}" title="请输入使用前的睡眠情况" 
+   			confirm-text="确认" cancel-text="取消" bindcancel="modalinput_3" 
+   			bindconfirm="confirm">
+        <textarea placeholder="请输入内容"></textarea>
+</modal>
+
+<modal hidden="{{hiddenmodalput_4}}" title="请输入新密码" 
+   			confirm-text="确认" cancel-text="取消" bindcancel="modalinput_4" 
+   			bindconfirm="confirm">
+     <input type='text' placeholder="请输入内容" auto-focus/>
+</modal>
+
+<modal title="请确认性别" cancel-text="女" confirm-text="男"
+       hidden="{{mHidden}}" bindconfirm="changeModel" bindtouchcancel="modelCancel">
+</modal>

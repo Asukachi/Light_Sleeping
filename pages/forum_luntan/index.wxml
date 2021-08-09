@@ -1,0 +1,2 @@
+<import src="../../wxParse/wxParse.wxml" />
+<image src="/image/forum.png"  style="position: fixed; height: 800rpx; top: 30rpx" />

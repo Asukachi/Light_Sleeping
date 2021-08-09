@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#000000",
+	"navigationBarTextStyle": "white",
+	"navigationBarTitleText": "睡眠模式",
+	"backgroundColor": "#ffffff",
+	"backgroundTextStyle": "light"
+}

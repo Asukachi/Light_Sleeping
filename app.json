@@ -1,0 +1,104 @@
+{
+  "pages": [
+    "pages/denglu/denglu",
+    "pages/zhuce/zhuce",
+    "pages/main_page/index",
+    "pages/clock_page/index",
+    "pages/clock_setpage/index",
+    "pages/sleep_music/index",
+    "pages/sleep_music_sorce/index",
+    "pages/sleep_inside_music/index",
+    "pages/sleep_lightmusic/index",
+    "pages/sleep_whitenoise/index",
+    "pages/sleep_stories/index",
+    "pages/sleep_custom_sleepmusic/index",
+    "pages/sleep_set_timing/index",
+    "pages/statistics_mainpage/index",
+    "pages/explore_mainpage/index",
+    "pages/explore_article_push/index",
+    "pages/explore_sleep_konwledge/index",
+    "pages/explore_improve_sleep_quality/index",
+    "pages/Analysis_of_sleep_process/index",
+    "pages/Bad_sleep_habits/index",
+    "pages/What_is_sleep_disorder/index",
+    "pages/World_sleep_day/index",
+    "pages/Why_snore/index",
+    "pages/community/index",
+    "pages/rank/index",
+    "pages/Bind_home_users/index",
+    "pages/Add_home_user/index",
+    "pages/forum_luntan/index",
+    "pages/adminstrator/index",
+    "pages/user_data/index",
+    "pages/logs/logs",
+    "pages/webview/index",
+    "pages/error/index",
+    "pages/empty/index",
+    "pages/order/index",
+    "pages/order/confirm/index",
+    "pages/order/detail/index",
+    "pages/cart/index",
+    "pages/address/index",
+    "pages/address/add/index",
+    "pages/address/edit/index",
+    "pages/address/confirm/index",
+    "pages/addresss/index",
+    "pages/user_setting/index",
+    "pages/user_question_feedback/index",
+    "pages/user_about_us/index",
+    "pages/start_sleep/index",
+    "pages/Home_user_information/index",
+    "pages/Goodnight_broadcast/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#000033",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "睡眠辅助程序测试",
+    "backgroundColor": "#000033",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#00CCCC",
+    "backgroundColor": "#000033",
+    "list": [
+      {
+        "pagePath": "pages/main_page/index",
+        "iconPath": "image/mainpage.png",
+        "selectedIconPath": "image/mainpage_select.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/statistics_mainpage/index",
+        "iconPath": "image/statistics.png",
+        "selectedIconPath": "image/statistics_select.png",
+        "text": "统计"
+      },
+      {
+        "pagePath": "pages/explore_mainpage/index",
+        "iconPath": "image/explore.png",
+        "selectedIconPath": "image/explore_select.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/community/index",
+        "iconPath": "image/community.png",
+        "selectedIconPath": "image/community_select.png",
+        "text": "社区"
+      },
+      {
+        "pagePath": "pages/adminstrator/index",
+        "iconPath": "image/user.png",
+        "selectedIconPath": "image/user_select.png",
+        "text": "用户"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "Location permission?"
+    }
+  }
+}

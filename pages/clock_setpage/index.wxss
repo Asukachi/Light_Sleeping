@@ -1,0 +1,31 @@
+page{background-color: #000033;}
+.picker{
+  padding: 13px;
+  background-color: #000033;
+}
+.fontstyle2{
+  font-size: 40px;
+}
+.type{
+  width: 90%;
+  margin-top: 20rpx;
+  background-color: #000033;
+}
+.display{
+  display: flex;
+}
+.arrow{
+  width: 10px;
+  height: 10px;
+  border-top: solid #00CCCC;
+  border-right: solid #00CCCC;
+  position: absolute;
+  right: 20rpx;
+  transform: rotate(45deg);
+  margin-top:10rpx;
+}
+.type_{
+  width: 40%;
+  margin-top: 60rpx;
+  background-color: #000033;
+}

@@ -1,0 +1,19 @@
+<import src="../../wxParse/wxParse.wxml" /> 
+
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="explore_article_push">
+<view class="weui-cell__bd fontstyle">文章推送</view> 
+<view class="arrow"></view>
+</view>
+
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="explore_sleep_konwledge">
+<view class="weui-cell__bd fontstyle">睡眠知识</view> 
+<view class="arrow"></view>
+</view>
+
+<view class="weui-cell" style="color: #00CCCC" type="" bindtap="" data-url="">
+<text style="white-space:pre-wrap;color:#000033">
+测试的占位代码
+</text>
+</view>
+
+<image style="position: fixed; bottom: 30rpx; width: 300rpx; height: 300rpx; justify-content: flex-end; align-items: flex-end; right: 30rpx" src="/image/explore_.png" />

@@ -1,0 +1,35 @@
+/* pages/zhuce/zhuce.wxss */
+page{background-color: #000033;}
+.input-wrap {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.info-input {
+  display:flex;
+  flex:1;
+  border-radius:10px;
+  font-size: 18px;
+  padding:8rpx;
+}
+
+.login {
+  margin-top: 40rpx;
+  background-color:rgb(148, 204, 241)
+}
+
+.ziti{
+  color:rgb(0, 0, 0);
+}
+
+.type{
+  width: 40%;
+  margin-top: 60rpx;
+  background-color: #000033;
+}
+.border{
+  border: 3rpx solid #00CCCC;
+  border-radius: 20rpx;
+  display: flex;
+}

@@ -1,0 +1,13 @@
+page{background-color: #000033;}
+.type{
+  width: 40%;
+  margin-top: 60rpx;
+  background-color: #000033;
+}
+.border{
+  border: 5rpx solid #00CCCC;
+  border-radius: 20rpx;
+  display: flex;
+  margin: 20px;
+  height: 600rpx;
+}

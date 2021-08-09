@@ -1,0 +1,21 @@
+<import src="../../wxParse/wxParse.wxml" />
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="sleep_lightmusic">
+<view class="weui-cell__bd fontstyle">轻音乐</view> 
+<view class="arrow"></view>
+</view>
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="sleep_whitenoise">
+<view class="weui-cell__bd fontstyle">白噪音</view> 
+<view class="arrow"></view>
+</view>
+<view class="weui-cell" style="color: #00CCCC" type="button" bindtap="navigateTo" data-url="sleep_stories">
+<view class="weui-cell__bd fontstyle">睡前故事</view> 
+<view class="arrow"></view>
+</view>
+
+<view class="weui-cell" style="color: #00CCCC" type="" bindtap="" data-url="">
+<text style="white-space:pre-wrap;color:#000033">
+测试的占位代码
+</text>
+</view>
+
+<image style="position: fixed; bottom: 50rpx; width: 300rpx; height: 300rpx; justify-content: flex-end; align-items: flex-end; right: 50rpx" src="/image/music.png" />

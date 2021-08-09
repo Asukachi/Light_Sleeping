@@ -1,0 +1,34 @@
+<view class="container display">
+
+<view class="input-wrap" style="color: #00CCCC; font-size: 40rpx">用户邮箱：
+  <view class="border">
+    <input placeholder-class="input" auto-focus placeholder="" placeholder-style="color: #00CCCC" value="{{username}}" bindinput="inputUsername"/>
+  </view>
+</view>
+
+<view class="input-wrap" style="color: #00CCCC" type="" bindtap="" data-url="">
+<text style="white-space:pre-wrap;color:#000033">测试的占位代码
+</text>
+</view>
+
+<view class="input-wrap" style="color: #00CCCC; font-size: 40rpx">密码：<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+  <view class="border">
+    <input password type="text" placeholder-class="input" auto-focus placeholder="" placeholder-style="color: #00CCCC" value="{{password}}" bindinput="inputPassword"/>
+  </view>
+</view>
+
+<view class="input-wrap" style="color: #00CCCC" type="" bindtap="" data-url="">
+<text style="white-space:pre-wrap;color:#000033">测试的占位代码
+</text>
+</view>
+  
+  <button plain style="color: #00CCCC; border-color: #00CCCC; border-width: 6rpx; border-radius: 20px" bindtap="login" class="type">登录</button>
+  <button plain style="color: #00CCCC; border-color: #00CCCC; border-width: 6rpx; border-radius: 20px" bindtap="register" class="type">注册</button>
+</view>
+
+<image style="position: fixed; width: 125rpx; height: 125rpx; bottom: 40rpx; right: 40rpx" src="/image/star.png" />
+<image style="position: fixed; width: 125rpx; height: 125rpx; top: 40rpx; left: 40rpx" src="/image/moon.png" />
+
+
+
+

@@ -1,0 +1,12 @@
+page{background-color: #000033;}
+.fontstyle{
+  font-size: 20px;
+}
+.type{
+  width: 90%;
+  margin-top: 20rpx;
+  background-color: #000033;
+}
+.display{
+  display: flex;
+}
